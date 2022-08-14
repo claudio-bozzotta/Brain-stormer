@@ -2,37 +2,162 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.ordineSelect {
+  flex-direction: column;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.ordineSelect p {
+  font-weight: bold;
+  margin: 0px;
 }
 
-.App-header {
+.cardWrapper {
+  display: flex;
+  margin: 20px;
+  gap: 40px;
+}
+
+select {
+  border: none;
+}
+
+img {
+  border-radius: 10px;
+}
+
+
+
+/*
+------------------------------------------------
+*                 COLD-FUSION                  *
+------------------------------------------------
+*/
+.Cold-Fusion h1{
+  color: #61dafb;
+}
+
+.Cold-Fusion {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
+.Cold-Fusion select{
+  background-color: #61dafb;
+  color: #282c34;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.Cold-Fusion .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+/*
+------------------------------------------------
+*                 COLOR-PARTY                  *
+------------------------------------------------
+*/
+.Color-Party h1{
+  color: white;
+}
+
+.Color-Party {
+  background-color: #72cec6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: #266960;
+}
+
+.Color-Party select {
+  background-color: #E27d60;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.Color-Party .App-link {
+  color: #E27d60;
+}
+
+
+/*
+------------------------------------------------
+*               STRAWBERRY-HAPPY               *
+------------------------------------------------
+*/
+.Strawberry-Happy h1{
+  color: #fd1f7c;
+}
+
+.Strawberry-Happy {
+  background-color: #fcbad6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: #8d2063;
+}
+
+.Strawberry-Happy select {
+  background-color: #fd1f7c;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.Strawberry-Happy .App-link {
+  color: #fd1f7c;
+}
+
+
+/*
+------------------------------------------------
+*                 MINT-FRESH                   *
+------------------------------------------------
+*/
+.Mint-Fresh h1{
+  color: white;
+}
+
+.Mint-Fresh {
+  background-color: #5CDB95;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: #05386B;
+}
+
+.Mint-Fresh select {
+  background-color: #05386B;
+  color: white;
+  font-size: large;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.Mint-Fresh .App-link {
+  color: #379683;
 }
